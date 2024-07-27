@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(28.889, 53%, 90%, 1);
+}
+
+.container {
+    display: flex;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    flex-direction: column;
+
+}
+
+.section1 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.container img{
+    width: 100%;
+}
+
+.container h1 {
+    width: 100%;
+    padding: 20px 0 20px 0;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.container .section1 p {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.container .section2 {
+    margin-top: 60px;
+    margin-left: 20px;
+    background-color: rgba(255, 247, 252, 1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+@media (max-width:600px){
+    .container{
+        width: 100%;
+        padding: 5px;
+        margin: 0;
+    }
+    .container img{
+        width: 100%;
+    }
+    .container .section2{
+        margin-left: 5px;
+    }
+    .container .section5 .ght{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .container .section5 .ght p:first-of-type{
+        margin-bottom: 10px;
+    }
+}
+
+.container .section2 h3{
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: rgba(103, 54, 75, 1);
+    font-weight: 400;
+}
+
+.container .section2 ul {
+    margin-left: 30px;
+}
+
+.container .section2 li {
+    padding-left: 10px;
+}
+
+.container .section2 ul li span {
+    font-weight: bold;
+    font-size: large;
+}
+
+.container .section3 {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.container .section3 h2{
+    margin-bottom: 10px;
+    font-size: 35px;
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+}
+
+.container .section3 ul {
+    margin-left: 30px;
+}
+
+.container .section3 li {
+    padding-left: 15px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.container hr {
+    margin: 15px 0 15px 0;
+}
+
+.container .section4 {
+    padding: 20px;
+}
+
+.container .section4 h2{
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+}
+
+.container .section4 ol {
+    margin-left: 20px;
+    list-style: none;
+}
+
+.container .section4 li {
+    padding-left: 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+}
+
+.container .section4 ol li .list-color{
+    margin-right: 10px;
+    color: hsl(332, 51%, 32%);
+}
+
+.container .section4 ol li span {
+    font-weight: bold;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.container .section5 {
+    padding: 20px;
+}
+
+.container .section5 h2{
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+}
+
+.container .section5 p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+}
+
+.container .section5 .ght {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.container .section5 .ght p {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.container .section5 hr {
+    opacity: 0.5;
+}
+
+.container .section5 .col {
+    color: hsl(332, 51%, 32%);;
+}
